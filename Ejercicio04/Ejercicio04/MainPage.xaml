@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio04.MainPage">
+
+    <StackLayout>
+        <Button x:Name="Item1" Text="TextToSpeech"/>
+        <Button x:Name="Item2" Text="BateryStatus"/>
+        <Button x:Name="btnScannerQR" Text="Leer Qr" Clicked="btnScannerQR_Clicked"/>
+        <Entry x:Name="txtResultado" Placeholder="Resultado del QR"/>
+    </StackLayout>
+
+</ContentPage>
